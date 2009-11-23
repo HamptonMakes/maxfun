@@ -1,4 +1,6 @@
 class ShowsController < ApplicationController
+  before_filter :cache
+
   def index
     respond_to do |format|
       format.html
@@ -7,7 +9,7 @@ class ShowsController < ApplicationController
   end
   
   def show
-    @show = (MaxFun.scrape.select { |s| s[:id].to_i == params[:id].to_i }).first
+    @show = (MaxFun.scrape.select { |s| s[:id].to_s == params[:id].to_s }).first
   end
   
   def new

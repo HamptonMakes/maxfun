@@ -84,8 +84,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 270843128;
-			PBXWorkspaceStateSaveDate = 270843128;
+			PBXPerProjectTemplateStateSaveDate = 280675806;
+			PBXWorkspaceStateSaveDate = 280675806;
 		};
 		perUserProjectItems = {
 			2D61251C101E2D9900B33CD1 = 2D61251C101E2D9900B33CD1 /* PlistBookmark */;
@@ -273,18 +273,20 @@
 			2D67BD77101E6A8900E1D197 = 2D67BD77101E6A8900E1D197 /* PBXTextBookmark */;
 			2D67BD79101E6A8900E1D197 = 2D67BD79101E6A8900E1D197 /* PBXTextBookmark */;
 			2D67BD7A101E6A8900E1D197 = 2D67BD7A101E6A8900E1D197 /* PBXTextBookmark */;
+			2D67BD8110BAC5E10054BBBB /* PlistBookmark */ = 2D67BD8110BAC5E10054BBBB /* PlistBookmark */;
 			2D67BD87101E6BF100E1D197 = 2D67BD87101E6BF100E1D197 /* PBXTextBookmark */;
+			2D67BD8710BAC5F50054BBBB /* PlistBookmark */ = 2D67BD8710BAC5F50054BBBB /* PlistBookmark */;
 			2D67BD88101E6BF100E1D197 = 2D67BD88101E6BF100E1D197 /* PBXTextBookmark */;
 			2D67BD89101E6BF100E1D197 = 2D67BD89101E6BF100E1D197 /* PBXTextBookmark */;
 			2D67BD8A101E6BF100E1D197 = 2D67BD8A101E6BF100E1D197 /* PBXTextBookmark */;
 			2D67BD8B101E6BF100E1D197 = 2D67BD8B101E6BF100E1D197 /* PBXTextBookmark */;
 			2D67BD8C101E6BF100E1D197 = 2D67BD8C101E6BF100E1D197 /* PBXTextBookmark */;
 			2D67BD9F101F7C6800E1D197 = 2D67BD9F101F7C6800E1D197 /* PBXTextBookmark */;
-			2D67BDB61024BD8900E1D197 /* PBXTextBookmark */ = 2D67BDB61024BD8900E1D197 /* PBXTextBookmark */;
-			2D67BDB71024BD8900E1D197 /* PBXTextBookmark */ = 2D67BDB71024BD8900E1D197 /* PBXTextBookmark */;
-			2D67BDB81024BD8900E1D197 /* PlistBookmark */ = 2D67BDB81024BD8900E1D197 /* PlistBookmark */;
-			2D67BDC41024CB9E00E1D197 /* PlistBookmark */ = 2D67BDC41024CB9E00E1D197 /* PlistBookmark */;
-			2D67BDC51024CB9E00E1D197 /* PlistBookmark */ = 2D67BDC51024CB9E00E1D197 /* PlistBookmark */;
+			2D67BDB61024BD8900E1D197 = 2D67BDB61024BD8900E1D197 /* PBXTextBookmark */;
+			2D67BDB71024BD8900E1D197 = 2D67BDB71024BD8900E1D197 /* PBXTextBookmark */;
+			2D67BDB81024BD8900E1D197 = 2D67BDB81024BD8900E1D197 /* PlistBookmark */;
+			2D67BDC41024CB9E00E1D197 = 2D67BDC41024CB9E00E1D197 /* PlistBookmark */;
+			2D67BDC51024CB9E00E1D197 = 2D67BDC51024CB9E00E1D197 /* PlistBookmark */;
 		};
 		sourceControlManager = 2D6124EA101E2B3100B33CD1 /* Source Control */;
 		userBuildSettings = {
@@ -301,6 +303,9 @@
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -313,6 +318,7 @@
 		name = maxfun;
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		variableFormatDictionary = {
@@ -323,6 +329,9 @@
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
 		};
 	};
 	2D6124EB101E2B3100B33CD1 /* Code sense */ = {
@@ -428,6 +437,7 @@
 		lineNumber = 28;
 		location = maxfun;
 		modificationTime = 270429396.718979;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	2D67BB5B101E33AB00E1D197 /* PBXTextBookmark */ = {
@@ -1965,6 +1975,7 @@
 		lineNumber = 39;
 		location = maxfun;
 		modificationTime = 270429396.719003;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	2D67BD13101E5DC500E1D197 /* PBXTextBookmark */ = {
@@ -2112,6 +2123,7 @@
 		lineNumber = 54;
 		location = maxfun;
 		modificationTime = 270429396.719022;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	2D67BD52101E643900E1D197 /* PBXTextBookmark */ = {
@@ -2199,6 +2211,7 @@
 		lineNumber = 55;
 		location = maxfun;
 		modificationTime = 270429396.719045;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	2D67BD66101E65B300E1D197 /* PBXTextBookmark */ = {
@@ -2301,17 +2314,23 @@
 		vrLen = 608;
 		vrLoc = 0;
 	};
+	2D67BD8110BAC5E10054BBBB /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* maxfun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hcatlin/dev/maxfun/iphone/maxfun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
 	2D67BD83101E6BEF00E1D197 /* maxfunViewController.m */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.c.objc;
 		name = maxfunViewController.m;
 		path = /Users/hcatlin/dev/maxfun/Classes/maxfunViewController.m;
 		sourceTree = "<group>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {797, 2394}}";
-			sepNavSelRange = "{3428, 0}";
-			sepNavVisRange = "{2946, 686}";
-		};
 	};
 	2D67BD85101E6BEF00E1D197 /* maxfunViewController.m:110 */ = {
 		isa = PBXFileBreakpoint;
@@ -2321,13 +2340,14 @@
 		continueAfterActions = 0;
 		countType = 0;
 		delayBeforeContinue = 0;
-		fileReference = 2D67BD83101E6BEF00E1D197 /* maxfunViewController.m */;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* maxfunViewController.m */;
 		functionName = "-tableView:cellForRowAtIndexPath:";
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 110;
 		location = maxfun;
 		modificationTime = 270429396.719065;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	2D67BD87101E6BF100E1D197 /* PBXTextBookmark */ = {
@@ -2339,6 +2359,17 @@
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 680;
+	};
+	2D67BD8710BAC5F50054BBBB /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* maxfun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hcatlin/dev/maxfun/iphone/maxfun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	2D67BD88101E6BF100E1D197 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2398,13 +2429,14 @@
 		continueAfterActions = 0;
 		countType = 0;
 		delayBeforeContinue = 0;
-		fileReference = 2D67BD83101E6BEF00E1D197 /* maxfunViewController.m */;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* maxfunViewController.m */;
 		functionName = "-tableView:cellForRowAtIndexPath:";
 		hitCount = 1;
 		ignoreCount = 0;
 		lineNumber = 116;
 		location = maxfun;
 		modificationTime = 270429414.993183;
+		originalNumberOfMultipleMatches = 0;
 		state = 2;
 	};
 	2D67BD9F101F7C6800E1D197 /* PBXTextBookmark */ = {

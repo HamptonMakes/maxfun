@@ -6,7 +6,7 @@ require 'digest'
 
 module MaxFun
   def self.scrape
-    document = Nokogiri::XML.parse(open("episodes.xml"))
+    document = Nokogiri::XML.parse(open("http://www.maximumfun.org/feeds/tsoya-episodes"))
     
     items = document.css("item")
     
@@ -29,7 +29,7 @@ module MaxFun
           end).join(", ")
         end
         
-        text = description.css("p")[1].inner_html
+        text = description.css(".field-field-summary").inner_html
       
       
         {:link => item.css("link").first.inner_html,
@@ -38,7 +38,7 @@ module MaxFun
          :media => description.css(".field.field-type-text.field-field-media-url .field-item.odd").first.inner_html.strip,
          :date => date,
          :description => text,
-         :id => self.hash(title),
+         :id => item.css("link").first.content.split("/").last,
          :small_img => nil, #{}"http://localhost:3000/shows/new",
          :img => (description.css("img").first.attributes["src"].text if description.css("img").any?)
         }
