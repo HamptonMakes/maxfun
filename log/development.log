@@ -1,0 +1,3208 @@
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 14:25:55) [GET]
+
+NoMethodError (undefined method `response_for' for #<ShowsController:0x227e5a0>):
+  app/controllers/shows_controller.rb:3:in `index'
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (29.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 14:25:55) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 14:25:58) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index to js (for 127.0.0.1 at 2009-07-27 14:26:12) [GET]
+
+RuntimeError (Must specify one or more actions for response_for.):
+  app/controllers/shows_controller.rb:5
+  app/controllers/shows_controller.rb:2
+
+Rendered rescues/_trace (34.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 14:26:26) [GET]
+
+NameError (uninitialized constant Show):
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (36.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 14:26:49) [GET]
+
+ActionView::MissingTemplate (Missing template shows/index.erb in view path app/views):
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 14:26:56) [GET]
+Completed in 164ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 14:32:53) [GET]
+Rendering shows/index
+Completed in 240ms (View: 239, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 14:32:54) [GET]
+Rendering shows/index
+Completed in 151ms (View: 150, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 14:33:03) [GET]
+Rendering shows/index
+Completed in 164ms (View: 161, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 14:50:18) [GET]
+Completed in 162ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 14:51:04) [GET]
+Rendering shows/index
+Completed in 159ms (View: 154, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 14:53:30) [GET]
+Rendering shows/index
+
+ActionView::TemplateError (undefined method `find' for #<Nokogiri::HTML::Document:0x270a614>) on line #2 of app/views/shows/index.html.haml:
+1: #shows
+2:   - MaxFun.scrape.each do |show|
+3:     .show
+4:       = link_to show[:title], show[:media]
+
+    lib/max_fun.rb:30:in `scrape'
+    nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:193:in `each'
+    nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `upto'
+    nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `each'
+    lib/max_fun.rb:14:in `collect'
+    lib/max_fun.rb:14:in `scrape'
+    app/views/shows/index.html.haml:2:in `_run_haml_app47views47shows47index46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/shows_controller.rb:3:in `index'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 14:53:38) [GET]
+Rendering shows/index
+Completed in 167ms (View: 165, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 14:53:41) [GET]
+Completed in 220ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:04:15) [GET]
+
+NoMethodError (undefined method `text' for "":String):
+  lib/max_fun.rb:27:in `scrape'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:193:in `each'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `upto'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `each'
+  lib/max_fun.rb:26:in `collect'
+  lib/max_fun.rb:26:in `scrape'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:193:in `each'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `upto'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `each'
+  lib/max_fun.rb:14:in `collect'
+  lib/max_fun.rb:14:in `scrape'
+  app/controllers/shows_controller.rb:5:in `index'
+  app/controllers/shows_controller.rb:3:in `index'
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (41.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:05:09) [GET]
+
+NoMethodError (undefined method `text' for "":String):
+  lib/max_fun.rb:27:in `scrape'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:193:in `each'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `upto'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `each'
+  lib/max_fun.rb:26:in `collect'
+  lib/max_fun.rb:26:in `scrape'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:193:in `each'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `upto'
+  nokogiri (1.3.2.20090724205152) lib/nokogiri/xml/node_set.rb:192:in `each'
+  lib/max_fun.rb:14:in `collect'
+  lib/max_fun.rb:14:in `scrape'
+  app/controllers/shows_controller.rb:5:in `index'
+  app/controllers/shows_controller.rb:3:in `index'
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (101.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:05:23) [GET]
+Completed in 164ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:05:23) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:05:32) [GET]
+Completed in 201ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:05:44) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:09:17) [GET]
+Completed in 198ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:11:12) [GET]
+Completed in 165ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:12:46) [GET]
+Completed in 239ms (View: 2, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:13:14) [GET]
+Completed in 295ms (View: 5, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:18:48) [GET]
+Completed in 174ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ApplicationController#index to js (for 127.0.0.1 at 2009-07-27 15:20:03) [GET]
+
+SyntaxError (/Users/hcatlin/dev/maxfunmobile/app/controllers/shows_controller.rb:12: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (95.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 15:20:26) [GET]
+Completed in 171ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 15:20:29) [GET]
+Rendering shows/index
+Completed in 168ms (View: 164, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:20:34) [GET]
+  Parameters: {"id"=>"-966255638"}
+
+ActionView::MissingTemplate (Missing template shows/show.erb in view path app/views):
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:20:48) [GET]
+  Parameters: {"id"=>"-966255638"}
+Rendering shows/show
+
+ActionView::TemplateError (Symbol as array index) on line #1 of app/views/shows/show.html.haml:
+1: %h1= @show[:title]
+
+    app/views/shows/show.html.haml:1:in `[]'
+    app/views/shows/show.html.haml:1:in `_run_haml_app47views47shows47show46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (35.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:21:00) [GET]
+  Parameters: {"id"=>"-966255638"}
+Rendering shows/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #1 of app/views/shows/show.html.haml:
+1: %h1= @show[:title]
+
+    app/views/shows/show.html.haml:1:in `_run_haml_app47views47shows47show46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (35.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:21:12) [GET]
+  Parameters: {"id"=>"-966255638"}
+Rendering shows/show
+Completed in 148ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/-966255638]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:21:27) [GET]
+  Parameters: {"id"=>"-966255638"}
+Rendering shows/show
+Completed in 161ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/-966255638]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:21:37) [GET]
+  Parameters: {"id"=>"-966255638"}
+Rendering shows/show
+Completed in 157ms (View: 3, DB: 0) | 200 OK [http://localhost/shows/-966255638]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:21:38) [GET]
+  Parameters: {"id"=>"-966255638"}
+Rendering shows/show
+Completed in 150ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/-966255638]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:21:40) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 155ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:22:01) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 210ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:22:07) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 161ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:22:25) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 157ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:22:44) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 161ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:22:54) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 156ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:22:57) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 213ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:06) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 172ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:10) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 159ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:16) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 165ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:17) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 157ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:22) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 167ms (View: 3, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:27) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 169ms (View: 7, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:32) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 148ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:47) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 159ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:23:47) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:23:54) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 153ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:23:54) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:24:20) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 210ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:24:20) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:24:36) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering shows/show
+Completed in 153ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:24:36) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:25:11) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+
+ActionView::TemplateError (undefined method `stylesheet_include_tag' for #<ActionView::Base:0x228ffd0>) on line #5 of app/views/layouts/application.html.haml:
+2: %html
+3:   %head
+4:     = stylesheet_include_tag "application"
+5:   %body
+6:     = yield
+
+    app/views/layouts/application.html.haml:5:in `_run_haml_app47views47layouts47application46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (34.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:25:11) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:25:19) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:25:19) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:25:31) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:25:32) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:25:44) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 152ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:25:45) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:26:12) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 158ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:26:12) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:26:27) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 171ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:26:27) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:26:31) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:26:31) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 15:27:04) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+Completed in 173ms (View: 171, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:27:08) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:28:53) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:28:56) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 151ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:29:10) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 155ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:30:32) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 152ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:31:23) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:31:24) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 205ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:31:34) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 152ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:31:35) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:31:52) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 180ms (View: 7, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:32:19) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 155ms (View: 4, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:32:20) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:32:29) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:33:06) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 224ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:33:06) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:33:06) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:33:07) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:33:07) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:33:07) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:33:27) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:33:28) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:33:28) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:33:36) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 159ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:33:36) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:33:36) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:36:44) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:36:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/media-playback-start" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:36:44) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:36:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/media-playback-start" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:36:59) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 158ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:36:59) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:37:10) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 158ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:37:10) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:37:31) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 216ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:37:32) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:37:55) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 168ms (View: 7, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:37:55) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:38:22) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 160ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:38:22) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:38:28) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 170ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:38:29) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:38:47) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 6, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:38:48) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:38:57) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 158ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:38:57) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:39:02) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 149ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:39:02) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:39:06) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 237ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:39:07) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:39:10) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:39:10) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:39:15) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 155ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 15:39:15) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:39:23) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 151ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:39:52) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 6, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:06) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 270ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:14) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:14) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:19) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 155ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:23) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:30) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 211ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:35) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:46) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 154ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:40:53) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:11) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:11) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:18) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 152ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:24) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:28) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:32) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 154ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:38) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 155ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:49) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 218ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:55) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:41:59) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 174ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:42:21) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:42:42) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:42:48) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 208ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:42:58) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:43:04) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:43:20) [GET]
+  Parameters: {"id"=>"696091857"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/696091857]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:43:24) [GET]
+  Parameters: {"id"=>"-939208220"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 154ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/-939208220]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:43:28) [GET]
+  Parameters: {"id"=>"-42002757"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 166ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/-42002757]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:43:37) [GET]
+  Parameters: {"id"=>"-983461024"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 151ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/-983461024]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:43:41) [GET]
+  Parameters: {"id"=>"-114136067"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/-114136067]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-07-27 15:44:35) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+Completed in 164ms (View: 162, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:44:37) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+
+ActionView::TemplateError (undefined method `description' for #<Hash:0x21431e0>) on line #16 of app/views/shows/show.html.haml:
+13:     
+14:     
+15: 
+16: - if @show.description.size > 30
+17: 
+18:   %img.pictureWithText{:src => @show[:img]}
+19:   %p.description= @show[:description]
+
+    app/views/shows/show.html.haml:16:in `_run_haml_app47views47shows47show46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (37.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:44:39) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+
+ActionView::TemplateError (undefined method `description' for #<Hash:0x21a7028>) on line #16 of app/views/shows/show.html.haml:
+13:     
+14:     
+15: 
+16: - if @show.description.size > 30
+17: 
+18:   %img.pictureWithText{:src => @show[:img]}
+19:   %p.description= @show[:description]
+
+    app/views/shows/show.html.haml:16:in `_run_haml_app47views47shows47show46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (44.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 15:44:50) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 225ms (View: 8, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:12:17) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 160ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:12:21) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:16:31) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 244ms (View: 88, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 16:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:16:39) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:18:54) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 214ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:19:41) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 161ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:33:22) [GET]
+  Parameters: {"id"=>"344420330"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 184ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/344420330]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:43:22) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 222ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:47:55) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 217ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:49:48) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 280ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:50:50) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 210ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to json (for 127.0.0.1 at 2009-07-27 16:51:54) [GET]
+Completed in 3ms (View: 1, DB: 0) | 406 Not Acceptable [http://localhost/shows.json]
+
+
+Processing ShowsController#index to json (for 127.0.0.1 at 2009-07-27 16:51:58) [GET]
+Completed in 2ms (View: 0, DB: 0) | 406 Not Acceptable [http://localhost/shows.json]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:52:02) [GET]
+Completed in 160ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:53:55) [GET]
+Completed in 207ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:54:07) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 220ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:54:12) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 183ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:54:18) [GET]
+  Parameters: {"id"=>"95fcde59be93b63939a9020940f0e2c2408cdfeb"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 183ms (View: 5, DB: 0) | 200 OK [http://localhost/shows/95fcde59be93b63939a9020940f0e2c2408cdfeb]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:54:50) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 212ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:54:50) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 167ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:55:00) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 170ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:55:05) [GET]
+  Parameters: {"id"=>"138bce07bf2d6525b0ef6427a0817240159bf051"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 166ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/138bce07bf2d6525b0ef6427a0817240159bf051]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:55:16) [GET]
+  Parameters: {"id"=>"138bce07bf2d6525b0ef6427a0817240159bf051"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 213ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/138bce07bf2d6525b0ef6427a0817240159bf051]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:57:21) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 193ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:57:23) [GET]
+  Parameters: {"id"=>"95fcde59be93b63939a9020940f0e2c2408cdfeb"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 162ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/95fcde59be93b63939a9020940f0e2c2408cdfeb]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:58:04) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 189ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:58:07) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 219ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:58:10) [GET]
+  Parameters: {"id"=>"95fcde59be93b63939a9020940f0e2c2408cdfeb"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 166ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/95fcde59be93b63939a9020940f0e2c2408cdfeb]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:58:13) [GET]
+  Parameters: {"id"=>"a9f0b977dd04d548eb00799534ada7b1ed225cfe"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 160ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/a9f0b977dd04d548eb00799534ada7b1ed225cfe]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 16:58:56) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 225ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 16:58:58) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 151ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:07:40) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 227ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:11:30) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 204ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:11:41) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 277ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:15:09) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 191ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:16:00) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 230ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:16:44) [GET]
+  Parameters: {"id"=>"a9f0b977dd04d548eb00799534ada7b1ed225cfe"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 152ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/a9f0b977dd04d548eb00799534ada7b1ed225cfe]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:19:52) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 185ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:21:34) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 231ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:21:42) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 214ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:21:55) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 241ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:22:50) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 246ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:23:43) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 183ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:27:02) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 189ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:29:47) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 186ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:31:44) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 297ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:33:15) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 262ms (View: 2, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:33:42) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 229ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:33:51) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 153ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:33:59) [GET]
+  Parameters: {"id"=>"95fcde59be93b63939a9020940f0e2c2408cdfeb"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/95fcde59be93b63939a9020940f0e2c2408cdfeb]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:34:03) [GET]
+  Parameters: {"id"=>"067067903e96b394debebb78b58e407a7fc5d6a8"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 208ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/067067903e96b394debebb78b58e407a7fc5d6a8]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:34:06) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 154ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:34:09) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:34:16) [GET]
+  Parameters: {"id"=>"371660df20c6ca7c605c45a751a5bfa97738652e"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 164ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/371660df20c6ca7c605c45a751a5bfa97738652e]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:34:28) [GET]
+  Parameters: {"id"=>"236ce1f1ef528f51147c54fb09c1aeb88083d446"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/236ce1f1ef528f51147c54fb09c1aeb88083d446]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:34:34) [GET]
+  Parameters: {"id"=>"067067903e96b394debebb78b58e407a7fc5d6a8"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/067067903e96b394debebb78b58e407a7fc5d6a8]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:35:46) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 231ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:35:47) [GET]
+  Parameters: {"id"=>"95fcde59be93b63939a9020940f0e2c2408cdfeb"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 212ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/95fcde59be93b63939a9020940f0e2c2408cdfeb]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:35:49) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 158ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:35:52) [GET]
+  Parameters: {"id"=>"a23461ad1fd946120a2953c8c80ecf43dab0e71f"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 155ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/a23461ad1fd946120a2953c8c80ecf43dab0e71f]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:35:55) [GET]
+  Parameters: {"id"=>"371660df20c6ca7c605c45a751a5bfa97738652e"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 156ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/371660df20c6ca7c605c45a751a5bfa97738652e]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:36:55) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 243ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:37:00) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:37:24) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 191ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:37:33) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 196ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:39:23) [GET]
+  Parameters: {"id"=>"63c6ec7a2b4a1259a3f1aa79994315f4de022298"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 162ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/63c6ec7a2b4a1259a3f1aa79994315f4de022298]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:39:36) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 208ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:44:38) [GET]
+  Parameters: {"version"=>"1"}
+
+SyntaxError (/Users/hcatlin/dev/maxfunmobile/lib/max_fun.rb:43: syntax error, unexpected tSYMBEG, expecting '}'
+         :img => (description.css("img")...
+          ^
+/Users/hcatlin/dev/maxfunmobile/lib/max_fun.rb:44: syntax error, unexpected '}', expecting kEND
+/Users/hcatlin/dev/maxfunmobile/lib/max_fun.rb:56: syntax error, unexpected $end, expecting ')'):
+  app/controllers/shows_controller.rb:5:in `index'
+  app/controllers/shows_controller.rb:3:in `index'
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (54.5ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:45:03) [GET]
+
+SyntaxError (/Users/hcatlin/dev/maxfunmobile/lib/max_fun.rb:43: syntax error, unexpected tSYMBEG, expecting '}'
+         :img => (description.css("img")...
+          ^
+/Users/hcatlin/dev/maxfunmobile/lib/max_fun.rb:44: syntax error, unexpected '}', expecting kEND
+/Users/hcatlin/dev/maxfunmobile/lib/max_fun.rb:56: syntax error, unexpected $end, expecting ')'):
+  app/controllers/shows_controller.rb:5:in `index'
+  app/controllers/shows_controller.rb:3:in `index'
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:45:10) [GET]
+Completed in 183ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:45:19) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 253ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:48:33) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 176ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:57:47) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 215ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 17:58:08) [GET]
+  Parameters: {"id"=>"371660df20c6ca7c605c45a751a5bfa97738652e"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 218ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/371660df20c6ca7c605c45a751a5bfa97738652e]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:58:28) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 357ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 17:59:47) [GET]
+Completed in 176ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 18:00:21) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:00:46) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 294ms (View: 4, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:02:05) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 276ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:03:56) [GET]
+
+ActionController::MissingFile (Cannot read file /Users/hcatlin/dev/maxfunmobile/public/small_icon.png):
+  app/controllers/shows_controller.rb:14:in `new'
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:04:21) [GET]
+
+ActionController::MissingFile (Cannot read file /Users/hcatlin/dev/maxfunmobile/public/small_icon.png):
+  app/controllers/shows_controller.rb:14:in `new'
+  vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 18:04:21) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:04:32) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:04:43) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 209ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:05:03) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 365ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:05:56) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 209ms (View: 3, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:07:05) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 203ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:08:20) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 260ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:09:29) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 204ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:30) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:09:47) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:10:09) [GET]
+  Parameters: {"id"=>"63c6ec7a2b4a1259a3f1aa79994315f4de022298"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/63c6ec7a2b4a1259a3f1aa79994315f4de022298]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:10:13) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:10:13) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:10:13) [GET]
+Completed in 1ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:10:13) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:10:13) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:10:13) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:10:13) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:12:24) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 290ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:12:25) [GET]
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:12:25) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:12:25) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 5ms (View: 2 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:12:25) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:12:25) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:12:25) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:17:08) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 322ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:08) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:08) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:08) [GET]
+Completed in 1ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:08) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:08) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:08) [GET]
+Completed in 6ms (View: 4 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:08) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 221ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+Completed in 1ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+Completed in 5ms (View: 2 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+Completed in 18ms (View: 9 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:35) [GET]
+Completed in 1ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:17:36) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 233ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Completed in 14ms (View: 6 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:00) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 214ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Completed in 7ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:18:15) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 5ms (View: 2 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 219ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Completed in 8ms (View: 4 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Completed in 5ms (View: 3 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:07) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 284ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:19:19) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:29:37) [GET]
+  Parameters: {"id"=>"a23461ad1fd946120a2953c8c80ecf43dab0e71f"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 160ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/a23461ad1fd946120a2953c8c80ecf43dab0e71f]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:29:40) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:29:40) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:29:40) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 167ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:29:53) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 157ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:43:59) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 488ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:45:09) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 290ms (View: 6, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:09) [GET]
+Completed in 9ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:09) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:09) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 6ms (View: 5 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:09) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:09) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:09) [GET]
+Completed in 40ms (View: 2 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:10) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:17) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:17) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 174ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Completed in 4ms (View: 2 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Completed in 5ms (View: 2 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:32) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:38) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:38) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:38) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:38) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:38) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:38) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:38) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:39) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:39) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:39) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:39) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:39) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:45:39) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:45:52) [GET]
+  Parameters: {"id"=>"a9f0b977dd04d548eb00799534ada7b1ed225cfe"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 248ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/a9f0b977dd04d548eb00799534ada7b1ed225cfe]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 193ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Completed in 8ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Completed in 7ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Completed in 9ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:15) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:16) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:16) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:16) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 3ms (View: 0 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:16) [GET]
+Completed in 19ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:16) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:16) [GET]
+Completed in 1ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:16) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 8ms (View: 2 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:17) [GET]
+Completed in 9ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:17) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:17) [GET]
+Completed in 10ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:17) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:17) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:46:17) [GET]
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 18:55:51) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 213ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:51) [GET]
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:51) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:51) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:51) [GET]
+Completed in 8ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:51) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:51) [GET]
+Completed in 8ms (View: 4 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:52) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:52) [GET]
+Completed in 14ms (View: 9 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:52) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 1ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 18:55:57) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:55:58) [GET]
+  Parameters: {"id"=>"63c6ec7a2b4a1259a3f1aa79994315f4de022298"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 178ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/63c6ec7a2b4a1259a3f1aa79994315f4de022298]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:56:03) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 164ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 18:57:51) [GET]
+  Parameters: {"id"=>"95fcde59be93b63939a9020940f0e2c2408cdfeb"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 163ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/95fcde59be93b63939a9020940f0e2c2408cdfeb]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 19:06:18) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 236ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 4ms (View: 3 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Completed in 3ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Completed in 2ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Completed in 5ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Completed in 9ms (View: 4 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:19) [GET]
+Completed in 8ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:06:29) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 162ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:06:34) [GET]
+  Parameters: {"id"=>"95fcde59be93b63939a9020940f0e2c2408cdfeb"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 201ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/95fcde59be93b63939a9020940f0e2c2408cdfeb]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 19:06:51) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 243ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Completed in 5ms (View: 4 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Completed in 8ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Completed in 6ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Completed in 12ms (View: 1 | 200 OK [http://localhost/shows/new]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+Completed in 4ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:06:52) [GET]
+Completed in 14ms (View: 1 | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:06:53) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 176ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:06:57) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 178ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:07:14) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 169ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:07:48) [GET]
+Completed in 73ms (View: 72, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#new (for 127.0.0.1 at 2009-07-27 19:07:48) [GET]
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/new]
+Streaming file /Users/hcatlin/dev/maxfunmobile/public/images/small_icon.png
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:07:49) [GET]
+  Parameters: {"id"=>"a9f0b977dd04d548eb00799534ada7b1ed225cfe"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 226ms (View: 3, DB: 0) | 200 OK [http://localhost/shows/a9f0b977dd04d548eb00799534ada7b1ed225cfe]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:07:53) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 172ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:07:59) [GET]
+  Parameters: {"id"=>"95fcde59be93b63939a9020940f0e2c2408cdfeb"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 196ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/95fcde59be93b63939a9020940f0e2c2408cdfeb]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 19:11:50) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 208ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 19:12:53) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 426ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 19:13:41) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 311ms (View: 2, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-07-27 19:16:37) [GET]
+  Parameters: {"version"=>"1"}
+Completed in 246ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js?version=1]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:31:05) [GET]
+  Parameters: {"id"=>"b498cb54ee8bf7de47646156dce8b9462387b590"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 689ms (View: 21, DB: 0) | 200 OK [http://localhost/shows/b498cb54ee8bf7de47646156dce8b9462387b590]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:31:07) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 247ms (View: 6, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-27 19:31:15) [GET]
+  Parameters: {"id"=>"929db6a4f72de15d715181d2c6effaf6abec7797"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 192ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/929db6a4f72de15d715181d2c6effaf6abec7797]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-28 12:38:32) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-28 14:09:45) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-07-28 14:29:56) [GET]
+  Parameters: {"id"=>"976296fb28b2bfd68ed08d29f1c3ae68c19a15ce"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 215ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/976296fb28b2bfd68ed08d29f1c3ae68c19a15ce]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 14:21:19) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 14:21:19) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 14:21:22) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-08-03 14:21:24) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+Completed in 1028ms (View: 1027, DB: 0) | 200 OK [http://localhost/shows]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-08-03 14:21:45) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+Completed in 157ms (View: 155, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-08-03 14:21:48) [GET]
+  Parameters: {"id"=>"a23461ad1fd946120a2953c8c80ecf43dab0e71f"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 227ms (View: 19, DB: 0) | 200 OK [http://localhost/shows/a23461ad1fd946120a2953c8c80ecf43dab0e71f]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-08-03 14:21:54) [GET]
+  Parameters: {"id"=>"6ac4a7787e7ebf60f64771b22fe4ecf5ffae1856"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 222ms (View: 2, DB: 0) | 200 OK [http://localhost/shows/6ac4a7787e7ebf60f64771b22fe4ecf5ffae1856]
+
+
+Processing ShowsController#index to js (for 127.0.0.1 at 2009-08-03 14:22:09) [GET]
+Completed in 160ms (View: 1, DB: 0) | 200 OK [http://localhost/shows.js]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-11-23 12:59:23) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+
+ActionView::TemplateError (No such file or directory - episodes.xml) on line #2 of app/views/shows/index.html.haml:
+1: #shows
+2:   - MaxFun.scrape.each do |show|
+3:     .show
+4:       = link_to show[:title], :action => "show", :id => show[:id]
+
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:32:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:32:in `open_uri_original_open'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/open-uri.rb:32:in `open'
+    lib/max_fun.rb:9:in `scrape'
+    app/views/shows/index.html.haml:2:in `_run_haml_app47views47shows47index46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/shows_controller.rb:3:in `index'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+    rack (1.0.0) bin/rackup:176
+    /usr/bin/rackup:19:in `load'
+    /usr/bin/rackup:19
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-11-23 13:03:34) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.inner_html) on line #2 of app/views/shows/index.html.haml:
+1: #shows
+2:   - MaxFun.scrape.each do |show|
+3:     .show
+4:       = link_to show[:title], :action => "show", :id => show[:id]
+
+    lib/max_fun.rb:32:in `scrape'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:193:in `each'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:192:in `upto'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:192:in `each'
+    lib/max_fun.rb:15:in `collect'
+    lib/max_fun.rb:15:in `scrape'
+    app/views/shows/index.html.haml:2:in `_run_haml_app47views47shows47index46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/shows_controller.rb:3:in `index'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+    rack (1.0.0) bin/rackup:176
+    /usr/bin/rackup:19:in `load'
+    /usr/bin/rackup:19
+
+Rendered rescues/_trace (100.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-11-23 13:04:52) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.inner_html) on line #2 of app/views/shows/index.html.haml:
+1: #shows
+2:   - MaxFun.scrape.each do |show|
+3:     .show
+4:       = link_to show[:title], :action => "show", :id => show[:id]
+
+    lib/max_fun.rb:32:in `scrape'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:193:in `each'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:192:in `upto'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:192:in `each'
+    lib/max_fun.rb:15:in `collect'
+    lib/max_fun.rb:15:in `scrape'
+    app/views/shows/index.html.haml:2:in `_run_haml_app47views47shows47index46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/shows_controller.rb:3:in `index'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+    rack (1.0.0) bin/rackup:176
+    /usr/bin/rackup:19:in `load'
+    /usr/bin/rackup:19
+
+Rendered rescues/_trace (109.2ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-11-23 13:05:49) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+Completed in 3249ms (View: 3248, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-11-23 13:05:56) [GET]
+  Parameters: {"id"=>"0519d6466969f95f6b06b82251828edb477d65d3"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 3204ms (View: 7, DB: 0) | 200 OK [http://localhost/shows/0519d6466969f95f6b06b82251828edb477d65d3]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-11-23 13:06:22) [GET]
+  Parameters: {"id"=>"697b94cf79462d0551e5b20c92f5a465c11dba28"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 3205ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/697b94cf79462d0551e5b20c92f5a465c11dba28]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-11-23 13:09:29) [GET]
+  Parameters: {"id"=>"697b94cf79462d0551e5b20c92f5a465c11dba28"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 7343ms (View: 12, DB: 0) | 200 OK [http://localhost/shows/697b94cf79462d0551e5b20c92f5a465c11dba28]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-11-23 13:09:39) [GET]
+  Parameters: {"id"=>"697b94cf79462d0551e5b20c92f5a465c11dba28"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 3087ms (View: 1, DB: 0) | 200 OK [http://localhost/shows/697b94cf79462d0551e5b20c92f5a465c11dba28]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-11-23 13:18:21) [GET]
+  Parameters: {"id"=>"697b94cf79462d0551e5b20c92f5a465c11dba28"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 6258ms (View: 11, DB: 0) | 200 OK [http://localhost/shows/697b94cf79462d0551e5b20c92f5a465c11dba28]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-11-23 13:21:59) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #2 of app/views/shows/index.html.haml:
+1: #shows
+2:   - MaxFun.scrape.each do |show|
+3:     .show
+4:       = link_to show[:title], :action => "show", :id => show[:id]
+
+    lib/max_fun.rb:41:in `scrape'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:193:in `each'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:192:in `upto'
+    nokogiri (1.3.3) lib/nokogiri/xml/node_set.rb:192:in `each'
+    lib/max_fun.rb:15:in `collect'
+    lib/max_fun.rb:15:in `scrape'
+    app/views/shows/index.html.haml:2:in `_run_haml_app47views47shows47index46html46haml'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    vendor/plugins/haml/rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/shows_controller.rb:5:in `index'
+    vendor/plugins/haml/rails/./lib/sass/plugin/rails.rb:19:in `process'
+    rack (1.0.0) bin/rackup:176
+    /usr/bin/rackup:19:in `load'
+    /usr/bin/rackup:19
+
+Rendered rescues/_trace (43.2ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-11-23 13:22:26) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+Completed in 3470ms (View: 3469, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ShowsController#index (for 127.0.0.1 at 2009-11-23 13:22:29) [GET]
+Rendering template within layouts/application
+Rendering shows/index
+Completed in 3122ms (View: 3120, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ShowsController#show (for 127.0.0.1 at 2009-11-23 13:22:37) [GET]
+  Parameters: {"id"=>"mutter-museum-director-dr-robert-hicks-live-philadelphia-sound-young-america"}
+Rendering template within layouts/application
+Rendering shows/show
+Completed in 3467ms (View: 6, DB: 0) | 200 OK [http://localhost/shows/mutter-museum-director-dr-robert-hicks-live-philadelphia-sound-young-america]

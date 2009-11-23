@@ -1,0 +1,33 @@
+body {
+  font-family: Verdana; }
+
+h1 {
+  font-size: 1em; }
+
+.date {
+  margin-bottom: 30px; }
+
+img.pictureWithText {
+  float: left;
+  height: 30%;
+  padding: 5px 20px 5px 0; }
+
+.listen {
+  margin: 0 0 40px 130px;
+  border: 1px solid;
+  width: 200px;
+  height: 44px; }
+  .listen a, .listen a:visited, .listen a:hover {
+    color: #369; }
+  .listen .text {
+    float: left;
+    font-size: 1.5em;
+    margin-top: 7px;
+    margin-left: 15px; }
+  .listen .play img {
+    padding: 5px 5px 0;
+    float: right;
+    border: 0; }
+
+p.description {
+  margin-top: 0px; }

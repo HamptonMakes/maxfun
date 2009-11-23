@@ -1,0 +1,17 @@
+%h1= @show[:title]
+
+.date
+  %em
+    Aired on
+    = @show[:date].to_s
+
+- if @show[:description].size > 30
+  %img.pictureWithText{:src => @show[:img]}
+  %p.description= @show[:description]
+- else
+  %img{:src => @show[:img]}
+
+.listen
+  %a{:href => @show[:media]}
+    .text  Listen Now
+    .play= image_tag "media-playback-start.png"
