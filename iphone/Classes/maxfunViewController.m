@@ -14,7 +14,7 @@
 @synthesize defaultCellImage;
 
 - (void)loadData {
-  NSURL *url = [NSURL URLWithString:@"http://localhost:3000/shows.js?version=1"];
+  NSURL *url = [NSURL URLWithString:@"http://m.maximumfun.org/shows.js?version=1"];
   NSURLRequest *request = [NSURLRequest requestWithURL:url];
   
   NSError *error;
